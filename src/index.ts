@@ -1,2 +1,3 @@
-export * from "./greet.js";
-export * from "./types.js";
+#!/usr/bin/env node
+
+export { runCli as bin } from "./runCli.ts";
