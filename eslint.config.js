@@ -36,7 +36,7 @@ export default tseslint.config(
 		languageOptions: {
 			parserOptions: {
 				projectService: {
-					allowDefaultProject: ["*.config.*s", "lib/index.js"],
+					allowDefaultProject: ["*.config.*s"],
 				},
 			},
 		},

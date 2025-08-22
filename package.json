@@ -12,7 +12,6 @@
 		"email": "npm@joshuakgoldberg.com"
 	},
 	"type": "module",
-	"main": "lib/index.js",
 	"bin": "lib/bin.js",
 	"files": [
 		"lib/"
