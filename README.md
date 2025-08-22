@@ -30,11 +30,12 @@ See `package-json-validator-cli --help` for usage:
 
 ```plaintext
 Options:
-  --filename, -f         package.json file to validate                      [default: "package.json"]
-  --warnings, -w         display warnings                                   [default: false]
-  --recommendations, -r  display recommendations                            [default: false]
-  --quiet, -q            less output                                        [default: false]
-  --help, -h, -?         this help message                                  [default: false]
+      --help             Show help                                     [boolean]
+      --version          Show version number                           [boolean]
+  -f, --filename         package.json file to validate [default: "package.json"]
+  -w, --warnings         display warnings             [boolean] [default: false]
+  -r, --recommendations  display recommendations      [boolean] [default: false]
+  -q, --quiet            less output                  [boolean] [default: false]
 ```
 
 ## Development
