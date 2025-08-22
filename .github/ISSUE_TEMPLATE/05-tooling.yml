@@ -1,3 +1,11 @@
+name: 🛠 Tooling
+description: Report a bug or request an enhancement in repository tooling
+
+title: "🛠 Tooling: <short description of the change>"
+
+labels:
+  - "area: tooling"
+
 body:
   - attributes:
       description: If any of these required steps are not taken, we may not be able to review your issue. Help us to help you!
@@ -11,7 +19,7 @@ body:
           required: true
     type: checkboxes
   - attributes:
-      description: What did you expect to be able to do?
+      description: What tooling changes would you like to make?
       label: Overview
     type: textarea
     validations:
@@ -20,12 +28,3 @@ body:
       description: Any additional info you'd like to provide.
       label: Additional Info
     type: textarea
-
-description: Report a bug or request an enhancement in repository tooling
-
-labels:
-  - "area: tooling"
-
-name: 🛠 Tooling
-
-title: "🛠 Tooling: <short description of the change>"

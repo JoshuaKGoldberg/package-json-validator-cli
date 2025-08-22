@@ -35,10 +35,17 @@ export default tseslint.config(
 		files: ["**/*.{js,ts}"],
 		languageOptions: {
 			parserOptions: {
-				projectService: { allowDefaultProject: ["*.config.*s"] },
+				projectService: {
+					allowDefaultProject: ["*.config.*s"],
+				},
 			},
 		},
 		rules: {
+			// Using a ts bin file throws this rule off.
+			// It uses the package.json as a source of truth, and since the package points
+			// at the transpiled js file, it treats usage on the ts src as a violation.
+			"n/hashbang": "off",
+
 			// Stylistic concerns that don't interfere with Prettier
 			"logical-assignment-operators": [
 				"error",
@@ -69,10 +76,6 @@ export default tseslint.config(
 		files: ["**/*.{yml,yaml}"],
 		rules: {
 			"yml/file-extension": ["error", { extension: "yml" }],
-			"yml/sort-keys": [
-				"error",
-				{ order: { type: "asc" }, pathPattern: "^.*$" },
-			],
 			"yml/sort-sequence-values": [
 				"error",
 				{ order: { type: "asc" }, pathPattern: "^.*$" },
