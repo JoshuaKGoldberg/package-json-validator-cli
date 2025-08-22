@@ -15,10 +15,7 @@
 	"main": "lib/index.js",
 	"bin": "lib/bin.js",
 	"files": [
-		"LICENSE.md",
-		"README.md",
-		"lib/",
-		"package.json"
+		"lib/"
 	],
 	"scripts": {
 		"build": "tsdown",

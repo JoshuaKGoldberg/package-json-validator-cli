@@ -26,7 +26,7 @@ Run this package as a terminal command to validate a `package.json` file:
 npx package-json-validator-cli
 ```
 
-See `pjv --help` for usage:
+See `package-json-validator-cli --help` for usage:
 
 ```plaintext
 Options:
