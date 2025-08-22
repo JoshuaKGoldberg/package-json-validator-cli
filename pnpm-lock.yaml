@@ -31,7 +31,7 @@ importers:
         specifier: 24.3.0
         version: 24.3.0
       '@types/yargs':
-        specifier: ^17.0.33
+        specifier: 17.0.33
         version: 17.0.33
       '@vitest/coverage-v8':
         specifier: 3.2.4
