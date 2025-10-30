@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3](https://github.com/JoshuaKGoldberg/package-json-validator-cli/compare/0.1.2...0.1.3) (2025-10-30)
+
+### Bug Fixes
+
+- **deps:** update dependency package-json-validator to ^0.32.0 ([#103](https://github.com/JoshuaKGoldberg/package-json-validator-cli/issues/103)) ([bf4248c](https://github.com/JoshuaKGoldberg/package-json-validator-cli/commit/bf4248c368cb61ec6f110f34e6bfb9cb8eea5ad9))
+
 ## [0.1.2](https://github.com/JoshuaKGoldberg/package-json-validator-cli/compare/0.1.1...0.1.2) (2025-10-17)
 
 ### Bug Fixes
