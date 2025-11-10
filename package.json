@@ -1,6 +1,6 @@
 {
 	"name": "package-json-validator-cli",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "CLI to validate package.json files. 📂",
 	"repository": {
 		"type": "git",
