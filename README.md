@@ -1,4 +1,4 @@
-<h1 align="center">Package Json Validator Cli</h1>
+<h1 align="center">Package Json Validator CLI</h1>
 
 <p align="center">
 	CLI to validate package.json files.
@@ -37,6 +37,11 @@ Options:
   -r, --recommendations  display recommendations      [boolean] [default: false]
   -q, --quiet            less output                  [boolean] [default: false]
 ```
+
+`package-json-validator-cli` is a thin wrapper around [`package-json-validator`](https://github.com/JoshuaKGoldberg/package-json-validator).
+
+- To keep your `package.json` validated over time, see [`eslint-plugin-package-json`](https://github.com/JoshuaKGoldberg/eslint-plugin-package-json).
+- To programmatically validate your `package.json`, see [`package-json-validator`](https://github.com/JoshuaKGoldberg/package-json-validator).
 
 ## Development
 
