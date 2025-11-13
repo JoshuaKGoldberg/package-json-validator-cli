@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       package-json-validator:
-        specifier: ^0.45.0
-        version: 0.45.0
+        specifier: ^0.48.0
+        version: 0.48.0
       yargs:
         specifier: ^18.0.0
         version: 18.0.0
@@ -2513,8 +2513,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  package-json-validator@0.45.0:
-    resolution: {integrity: sha512-BgPj1eZN6Er1VyWqRNws0slHc6XxtDp788Ta4/E0uddAVRB1v75r5VWSikKRiu0iQX/7xIYA1jcx9h2g3xjajQ==}
+  package-json-validator@0.48.0:
+    resolution: {integrity: sha512-/CWXFbuPVA3+rfxvBHGyJ91be+EfQSTLbGEnO+A0QDlMX/zNSI191K7PeOC9R6OQdPRh+cNScTSg0B3+qFlsLQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -5716,7 +5716,7 @@ snapshots:
       validate-npm-package-license: 3.0.4
       yargs: 18.0.0
 
-  package-json-validator@0.45.0:
+  package-json-validator@0.48.0:
     dependencies:
       semver: 7.7.3
       validate-npm-package-license: 3.0.4
