@@ -62,6 +62,13 @@ export default tseslint.config(
 		},
 	},
 	{
+		files: ["**/*.jsonc"],
+		rules: {
+			"jsonc/comma-dangle": "off",
+			"jsonc/no-comments": "off",
+		},
+	},
+	{
 		extends: [tseslint.configs.disableTypeChecked],
 		files: ["**/*.md/*.ts"],
 		rules: { "n/no-missing-import": "off" },
