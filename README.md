@@ -43,6 +43,19 @@ Options:
 - To keep your `package.json` validated over time, see [`eslint-plugin-package-json`](https://github.com/JoshuaKGoldberg/eslint-plugin-package-json).
 - To programmatically validate your `package.json`, see [`package-json-validator`](https://github.com/JoshuaKGoldberg/package-json-validator).
 
+### Example
+
+You might want to use this as a standalone script in your `package.json`:
+
+```jsonc
+// package.json
+{
+	"scripts": {
+		"lint:package": "package-json-validator-cli",
+	},
+}
+```
+
 ## Development
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md), then [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
