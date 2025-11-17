@@ -45,7 +45,7 @@ Options:
 
 ### Example
 
-If you're not using the ESLint plugin, you might want to use this as a standalone script in your `package.json`:
+You might want to use this as a standalone script in your `package.json`:
 
 ```jsonc
 // package.json
