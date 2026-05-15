@@ -58,8 +58,8 @@ importers:
         specifier: 18.0.0
         version: 18.0.0(eslint@9.39.0(jiti@2.7.0))(typescript@6.0.2)
       eslint-plugin-package-json:
-        specifier: 0.88.0
-        version: 0.88.0(@types/estree@1.0.9)(eslint@9.39.0(jiti@2.7.0))(jsonc-eslint-parser@3.1.0)
+        specifier: 0.91.2
+        version: 0.91.2(@types/estree@1.0.9)(eslint@9.39.0(jiti@2.7.0))(jsonc-eslint-parser@3.1.0)
       eslint-plugin-perfectionist:
         specifier: 5.9.0
         version: 5.9.0(eslint@9.39.0(jiti@2.7.0))(typescript@6.0.2)
@@ -1848,12 +1848,12 @@ packages:
       typescript:
         optional: true
 
-  eslint-plugin-package-json@0.88.0:
-    resolution: {integrity: sha512-cu3/rvFDKbVSzmtjP4bS4oqyLDLVHXG7clJG3TS/U7g+JUWb1/yQ3l2a6W1aFLQiS9gmD2/qvNCTbIlHC33q2A==}
+  eslint-plugin-package-json@0.91.2:
+    resolution: {integrity: sha512-tuPjHVYOjqEJtErmzuYiQY6o877l9Kb7+lfLhR/mAzHuy9CBqhRreIGPsQmVM/dMJ8yQVg92Bz1vBAgugELIXw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       eslint: '>=8.0.0'
-      jsonc-eslint-parser: ^2.0.0
+      jsonc-eslint-parser: '>=2.0.0'
 
   eslint-plugin-perfectionist@5.9.0:
     resolution: {integrity: sha512-8TWzg02zmnBdZwCkWLi8jhzqXI+fE7Z/RwV8SL6xD45tJ8Bp3wGuYL2XtQgfe/Wd0eBqOUX+s6ey73IyszvKTA==}
@@ -2633,11 +2633,6 @@ packages:
 
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
-
-  package-json-validator@0.59.1:
-    resolution: {integrity: sha512-cLk5/c/OJX9nA9rl3d2Gymrxv2lqhOBn3+1+D6ZqPNjL6ZyhcjVDUfKyXh+nDyQjGVEQfPoVIE5kLrZ2zn6nDQ==}
-    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
-    hasBin: true
 
   package-json-validator@1.5.1:
     resolution: {integrity: sha512-5WpI9I6pMy/ueq7rkDcJXfVjcHX6OBVTQk4Z7ObVZzsgPv/sX3kUfFFfvobErl/HpgleLcW4egvNypyBwGlkpw==}
@@ -4833,7 +4828,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.2
 
-  eslint-plugin-package-json@0.88.0(@types/estree@1.0.9)(eslint@9.39.0(jiti@2.7.0))(jsonc-eslint-parser@3.1.0):
+  eslint-plugin-package-json@0.91.2(@types/estree@1.0.9)(eslint@9.39.0(jiti@2.7.0))(jsonc-eslint-parser@3.1.0):
     dependencies:
       '@altano/repository-tools': 2.0.3
       change-case: 5.4.4
@@ -4842,7 +4837,7 @@ snapshots:
       eslint: 9.39.0(jiti@2.7.0)
       eslint-fix-utils: 0.4.2(@types/estree@1.0.9)(eslint@9.39.0(jiti@2.7.0))
       jsonc-eslint-parser: 3.1.0
-      package-json-validator: 0.59.1
+      package-json-validator: 1.5.1
       semver: 7.8.0
       sort-object-keys: 2.1.0
       sort-package-json: 3.6.1
@@ -5835,13 +5830,6 @@ snapshots:
       quickjs-wasi: 0.0.1
 
   package-json-from-dist@1.0.1: {}
-
-  package-json-validator@0.59.1:
-    dependencies:
-      semver: 7.8.0
-      validate-npm-package-license: 3.0.4
-      validate-npm-package-name: 7.0.2
-      yargs: 18.0.0
 
   package-json-validator@1.5.1:
     dependencies:
