@@ -29,14 +29,20 @@ npx package-json-validator-cli
 See `package-json-validator-cli --help` for usage:
 
 ```plaintext
+Usage: package-json-validator-cli [options]
+
+Validate package.json files
+
 Options:
-      --help             Show help                                     [boolean]
-      --version          Show version number                           [boolean]
-  -f, --filename         package.json file to validate [default: "package.json"]
-  -w, --warnings         display warnings             [boolean] [default: false]
-  -r, --recommendations  display recommendations      [boolean] [default: false]
-  -q, --quiet            less output                  [boolean] [default: false]
+  -f, --filename <string>  package.json file to validate (default: package.json)
+  -w, --warnings           display warnings
+  -r, --recommendations    display recommendations
+  -q, --quiet              less output
+  -h, --help               Show this help message
+  -v, --version            Show the version number
 ```
+
+Boolean flags can be turned off with `--no-` prefixes, such as `--no-quiet`.
 
 `package-json-validator-cli` is a thin wrapper around [`package-json-validator`](https://github.com/JoshuaKGoldberg/package-json-validator).
 
