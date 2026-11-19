@@ -2,7 +2,7 @@ import * as fsSync from "node:fs";
 import * as fs from "node:fs/promises";
 import { createRequire } from "node:module";
 import { validate } from "package-json-validator";
-import { createCli } from "parse-standard-args";
+import { parseStandardArgv } from "parse-standard-args";
 import { z } from "zod";
 
 interface PackageJson {
@@ -13,7 +13,7 @@ interface PackageJson {
 const require = createRequire(import.meta.url);
 const packageJson = require("../package.json") as PackageJson;
 
-const cli = createCli({
+const settings = {
 	description: "Validate package.json files",
 	name: "package-json-validator-cli",
 	/* eslint-disable perfectionist/sort-objects -- keeps the previous help order */
@@ -39,10 +39,10 @@ const cli = createCli({
 	// Unknown flags and positionals were ignored before, so they still are.
 	strict: false,
 	version: packageJson.version,
-});
+};
 
 export async function runCli(args: string[]) {
-	const parsed = await cli.parse(args);
+	const parsed = parseStandardArgv(args, settings);
 
 	switch (parsed.type) {
 		case "error":

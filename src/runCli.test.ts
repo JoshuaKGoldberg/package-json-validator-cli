@@ -260,7 +260,7 @@ describe(runCli, () => {
 
 	it.each([
 		[["--filename"], "--filename requires a value."],
-		[["--quiet=maybe"], "--quiet does not take a value."],
+		[["--quiet=maybe"], '--quiet: Expected true or false, received "maybe".'],
 		[["--no-warnings=true"], "--no-warnings does not take a value."],
 	])(
 		"outputs an error and returns 1 for invalid args %j",

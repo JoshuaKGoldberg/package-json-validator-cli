@@ -62,11 +62,6 @@ export default tseslint.config(
 		},
 	},
 	{
-		// TODO: Remove once parse-standard-args is published and no longer link:ed.
-		files: ["package.json"],
-		rules: { "package-json/valid-dependencies": "off" },
-	},
-	{
 		files: ["**/*.jsonc"],
 		rules: {
 			"jsonc/comma-dangle": "off",
