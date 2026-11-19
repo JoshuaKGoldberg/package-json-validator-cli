@@ -36,7 +36,6 @@ const settings = {
 		}),
 	}),
 	/* eslint-enable perfectionist/sort-objects */
-	// Unknown flags and positionals were ignored before, so they still are.
 	strict: false,
 	version: packageJson.version,
 };
