@@ -44,6 +44,5 @@
   ],
   "projectName": "package-json-validator-cli",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular"
+  "repoType": "github"
 }

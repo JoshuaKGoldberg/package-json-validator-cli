@@ -1,21 +1,15 @@
-name: 🚀 Feature
-description: Request that a new feature be added or an existing feature improved
-
-title: "🚀 Feature: <short description of the feature>"
-
-labels:
-  - "type: feature"
-
 body:
   - attributes:
       description: If any of these required steps are not taken, we may not be able to review your issue. Help us to help you!
       label: Feature Request Checklist
       options:
+        - label: I have looked at the latest version of the project.
+          required: true
         - label: I have [searched for related issues](https://github.com/JoshuaKGoldberg/package-json-validator-cli/issues?q=is%3Aissue) and found none that matched my issue.
           required: true
     type: checkboxes
   - attributes:
-      description: What would you like to be able to do?
+      description: What did you expect to be able to do?
       label: Overview
     type: textarea
     validations:
@@ -24,3 +18,12 @@ body:
       description: Any additional info you'd like to provide.
       label: Additional Info
     type: textarea
+
+description: Request that a new feature be added or an existing feature improved
+
+labels:
+  - "type: feature"
+
+name: 🚀 Feature
+
+title: "🚀 Feature: <short description of the feature>"
