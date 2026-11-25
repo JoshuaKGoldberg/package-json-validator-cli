@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.12](https://github.com/JoshuaKGoldberg/package-json-validator-cli/compare/0.1.11...0.1.12) (2026-11-25)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.23 ([#306](https://github.com/JoshuaKGoldberg/package-json-validator-cli/issues/306)) ([89ed4c2](https://github.com/JoshuaKGoldberg/package-json-validator-cli/commit/89ed4c2060092aac1e2b8298b9c359ddcde5fa1a)), closes [#305](https://github.com/JoshuaKGoldberg/package-json-validator-cli/issues/305)
+- **deps:** update dependency package-json-validator to ^0.60.0 ([#168](https://github.com/JoshuaKGoldberg/package-json-validator-cli/issues/168)) ([ed27ad2](https://github.com/JoshuaKGoldberg/package-json-validator-cli/commit/ed27ad27ead2b95c94a57b6e08263a040c70ea84))
+- **deps:** update dependency package-json-validator to v1 ([#208](https://github.com/JoshuaKGoldberg/package-json-validator-cli/issues/208)) ([1b69ef5](https://github.com/JoshuaKGoldberg/package-json-validator-cli/commit/1b69ef52459033d0213166783f3b10b39b79f887))
+
 ## [0.1.11](https://github.com/JoshuaKGoldberg/package-json-validator-cli/compare/0.1.10...0.1.11) (2025-11-26)
 
 ### Bug Fixes
