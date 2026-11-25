@@ -2,15 +2,16 @@
 	"compilerOptions": {
 		"allowImportingTsExtensions": true,
 		"declaration": true,
-		"declarationMap": true,
 		"esModuleInterop": true,
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"noEmit": true,
 		"resolveJsonModule": true,
+		"rewriteRelativeImportExtensions": true,
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "ES2024"
+		"target": "ES2024",
+		"types": ["node"]
 	},
 	"include": ["src"]
 }
