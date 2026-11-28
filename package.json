@@ -32,7 +32,7 @@
 		"tsc": "tsc"
 	},
 	"dependencies": {
-		"package-json-validator": "^1.0.0",
+		"package-json-validator": "^2.0.0",
 		"yargs": "^18.0.0"
 	},
 	"devDependencies": {
