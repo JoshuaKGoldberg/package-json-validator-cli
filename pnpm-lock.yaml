@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       package-json-validator:
-        specifier: ^1.0.0
-        version: 1.6.1
+        specifier: ^2.0.0
+        version: 2.0.1
       yargs:
         specifier: ^18.0.0
         version: 18.0.0
@@ -3331,6 +3331,10 @@ packages:
     resolution: {integrity: sha512-IciCE3SY3uE84Ld8WZU23gAPPV9rIYod4F+rc+vJ7h7cwAJt9Vk6TVsK60ry7Uj3SRS3bqRRIGuTp9YVlk6WNA==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
+  npm-package-arg@14.0.0:
+    resolution: {integrity: sha512-69XQh3k+dtGa1p+7RaR57IuG3rCko96xr/nUfN4yDYBXbTYICiWcOpsFKLN2GtGE9cyIljE+f1exnaYt9MvM+Q==}
+    engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+
   npm-run-path@3.1.0:
     resolution: {integrity: sha512-Dbl4A/VfiVGLgQv29URL9xshU8XDY1GeLy+fsaZ1AA8JDSfjvr5P5+pzRbWqRSBxk6/DW7MIh8lTM/PaGnP2kg==}
     engines: {node: '>=8'}
@@ -3439,6 +3443,10 @@ packages:
   package-json-validator@1.6.1:
     resolution: {integrity: sha512-eyl3DGFoxdUO0RA1Ym+H11S6P2XWIlA6Sy2PbvslbwFJ14kkz+FgX1Br3MaebrvLY3Q10Iih3PsL3741vsevrA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
+
+  package-json-validator@2.0.1:
+    resolution: {integrity: sha512-kO3w7IzR8SLuMg08ym6lA5T4O5ifl1zNGlC4M4CLG+HheBR9mR99wOatLgiyV+HsfArVNpmCk6+YTTj68np3BA==}
+    engines: {node: ^22.22.2 || ^24.15.0 || >= 26.0.0}
 
   package-manager-detector@1.9.0:
     resolution: {integrity: sha512-zAMfbta9nPA8AKkA4WdmNAT8R8s6Dk0/xwPsqNnRidMFcLo1YkLuPDTgs2f64XdzS8vbLNnoJ+uUIkgbz7oRHA==}
@@ -3606,6 +3614,10 @@ packages:
   proc-log@6.1.0:
     resolution: {integrity: sha512-iG+GYldRf2BQ0UDUAd6JQ/RwzaQy6mXmsk/IzlYyal4A4SNFw54MeH4/tLkF4I5WoWG9SQwuqWzS99jaFQHBuQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  proc-log@7.0.0:
+    resolution: {integrity: sha512-FYgfaA69XZ93zaXLoMNQ+ViDXGGBgR8aLh03txzcFhV+9xOXx7+8DLCULrKKpR9+GsH9ZfHm82aSUPpozX0Ztg==}
+    engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   protocols@2.0.2:
     resolution: {integrity: sha512-hHVTzba3wboROl0/aWRRG9dMytgH6ow//STBZh43l/wQgmMhYhOFi0EHWAPtoCz9IAUymsyP0TSBHkhgMEGNnQ==}
@@ -4115,6 +4127,10 @@ packages:
   validate-npm-package-name@7.0.2:
     resolution: {integrity: sha512-hVDIBwsRruT73PbK7uP5ebUt+ezEtCmzZz3F59BSr2F6OVFnJ/6h8liuvdLrQ88Xmnk6/+xGGuq+pG9WwTuy3A==}
     engines: {node: ^20.17.0 || >=22.9.0}
+
+  validate-npm-package-name@8.0.0:
+    resolution: {integrity: sha512-SCv6OOV6Xj2/3cXy3dGmADluJTNcL3o7hZAglNPTe+WYuEuvxgJzxPrSDLZhF+CwyQOubqgecjMmTJGMVLWjYQ==}
+    engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   verkit@0.4.0:
     resolution: {integrity: sha512-sXMwN6DMHeouPfCxkxWkKAmxphWKEenHYY5H1nIBzU3PmDsmJp6kBXJdshjVdpMZuWCmL9SH7KFRx29AylpP6g==}
@@ -7648,6 +7664,13 @@ snapshots:
       semver: 7.8.6
       validate-npm-package-name: 7.0.2
 
+  npm-package-arg@14.0.0:
+    dependencies:
+      hosted-git-info: 10.1.1
+      proc-log: 7.0.0
+      semver: 7.8.6
+      validate-npm-package-name: 8.0.0
+
   npm-run-path@3.1.0:
     dependencies:
       path-key: 3.1.1
@@ -7829,6 +7852,13 @@ snapshots:
       validate-npm-package-license: 3.0.4
       validate-npm-package-name: 7.0.2
 
+  package-json-validator@2.0.1:
+    dependencies:
+      npm-package-arg: 14.0.0
+      validate-npm-package-license: 3.0.4
+      validate-npm-package-name: 8.0.0
+      verkit: 0.5.0
+
   package-manager-detector@1.9.0: {}
 
   parent-module@1.0.1:
@@ -7971,6 +8001,8 @@ snapshots:
       tslib: 2.8.1
 
   proc-log@6.1.0: {}
+
+  proc-log@7.0.0: {}
 
   protocols@2.0.2: {}
 
@@ -8486,6 +8518,8 @@ snapshots:
       spdx-expression-parse: 3.0.1
 
   validate-npm-package-name@7.0.2: {}
+
+  validate-npm-package-name@8.0.0: {}
 
   verkit@0.4.0: {}
 
